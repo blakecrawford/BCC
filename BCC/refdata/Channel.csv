@@ -1,0 +1,65 @@
+Id;Name;Description;Code;Channel Status;VMID
+1;BET;;BET;Active;738d8c8f-c629-42e2-9944-dc0de94d0b41
+2;Centric;;CENTRIC;Active;d7fd4f20-228d-41bb-ad10-97144fc6cc29
+3;Comedy Central;;CMDY;Active;60458cd1-1bdd-40f8-b6f4-7ad7eee64332
+4;Comedy Central 2;;CCMO;Active;27056f72-8c38-4cd6-ab41-2654f6771f3b
+5;Comedy Central Latin America/Brazil;;CCLB;Active;e4d38ba8-575a-4d08-9d3a-def21482e92b
+6;Comedy Central Latin America/North;;CCLN;Active;2093207f-0a9c-4b00-bd27-e51452ac66e0
+7;Comedy Central Latin America/South;;CCLS;Active;665f944f-adfa-4eea-870d-39880b760337
+8;Comedy Central Over-The-Top;;CCOT;Active;71d56013-9452-4931-a72f-9f78938d47fd
+9;Country Music Television ;;CMT;Active;ddaed9b4-e5f0-4118-9e3a-9737feb7885b
+10;EPIX;;EPIX;Active;f2c60388-d8bf-444a-be66-334e6b6d5048
+11;EPIX 2;;EPX2;Active;e91b6c03-7a61-4766-a277-ce668bcfe0b3
+12;EPIX 3;;EPX3;Active;8a38ec9f-6fb3-43b4-b807-b15237d4ab33
+13;EPIX Affiliate;;EPAF;Active;60c4b63a-fda3-4f71-8668-153c5320d82f
+14;EPIX Drive-In;;EPDI;Active;6815b01b-c674-4e29-96ed-62f24e676dd3
+15;GameTrailers;;GAME;Active;203e596b-112c-4f48-8fa4-e79bc89da2df
+16;LOGO;;LOGO;Active;b55012dc-e3e1-4470-b853-ba5712979ad4
+17;MTV;;MTV;Active;5e27688b-03bd-40a3-9479-74c1dec36438
+18;MTV Brazil;;MTVB;Active;824d2ac4-e4f6-48d4-9daa-29212d318376
+19;MTV Hits;;MTVH;Active;f9953e94-00ab-4d04-aac9-21d9673b4b99
+20;MTV Hits Latin America;;MHLA;Active;b1a9ee85-20e4-478a-a030-7478afda0eb3
+21;MTV Jams;;MTVJ;Active;e99e8010-4e9b-48a7-b472-1674e1717df2
+22;MTV Latin America / Central;;MTLC;Active;bb369181-8320-4e82-8dc6-12a5423a3812
+23;MTV Latin America / Norte;;MTLN;Active;2778a15f-66ed-42d5-8d11-ced7b7b49b52
+24;MTV Latin America / Sur;;MTLS;Active;6341078c-21f6-44fc-a665-6c91491a5b10
+25;MTV University;;MTVU;Active;bdc5485e-cd4d-4ca7-8c84-237705f113de
+26;MTV2;;MTV2;Active;ef7911f7-3bc3-4d70-8946-2f560eac854b
+27;Nick Jr.;;NOGG;Active;dba71d36-5347-4cbf-a1c1-b2ea8412694e
+28;Nick Jr. Latin America;;NJLA;Active;3d3c4bf2-3c6c-4728-9f4f-88691cfcda30
+29;Nick Latin America/Brazil;;NLAB;Active;ec10ab02-8306-4e89-95d4-4a3fa9586975
+30;Nick Latin America/Central;;NLC;Active;d29a11e4-deda-4ea4-9609-1b671e55d67f
+31;Nick Latin America/HD;;NLHD;Active;cb35334f-1b6e-46c1-89d8-91f1b63e737d
+32;Nick Latin America/North;;NLAN;Active;075317a8-1de4-4383-b29c-d880bd0287cc
+33;Nick Latin America/South;;NLAS;Active;90b25736-0d2f-49a5-acd7-31af2a5f3a68
+34;Nickelodeon;;NICK;Active;774b2f83-56e0-46ea-a00d-9e9a1232176a
+35;Nickelodeon GAS;;GAS;Active;63fa4471-16a7-415d-9cdc-e74ff614b8a4
+36;Nicktoons;;NKTN;Active;b66108c4-fa8b-4233-af7a-3f6d3ac2acea
+37;Nicktoons Latin America;;NKLA;Active;594a5fd1-9df6-43c0-999a-766982cec990
+38;Palladia;;MHD;Active;c4628248-d3c2-40b0-af03-39190f7af4e3
+39;Paramount;;PAR;Active;6d8279ef-ee61-46f3-ae9a-9b224f5e7729
+40;Paramount Brazil;;PARBR;Active;e39b79e9-ae6c-4603-afea-dfde7a1b57b2
+41;Paramount Latin America;;PARLA;Active;b3db0ae7-fd6d-49ea-a1a5-4222252b7f62
+42;Pure Country;;PURE;Active;1a6cde06-5c81-451f-9d1e-cd8cfa5ae6db
+43;SpikeTV;;SPKE;Active;cd79862c-c45a-4675-9843-0e959eb5d764
+44;SpikeTV Mobile;;SPMO;Active;618f0a60-33e5-48dc-9767-0ab4cfc396d3
+45;TeenNick;;NNET;Active;eefb1c85-7b08-473c-ba12-292beb5fbb28
+46;Tr3s;;TR3S;Active;d0aeb8b9-ec8b-4aea-9659-c2ed5658d7d3
+47;Tr3s Broadcast;;TR3SB;Active;743ff2d0-f6c7-488a-9c9a-d72bd13398e8
+48;Tr3s Mobile;;TRMO;Active;3c55b017-8838-4b61-85eb-1f82bf38ba2a
+49;TV Land;;TVL;Active;784a9121-6346-4fd0-8d91-2264180a72bc
+50;VH1;;VH1;Active;91ca0a55-f20b-4daa-b791-feb8f736bce4
+51;VH1 Argentina;;VH1A;Active;de19399d-c101-4edc-bcc9-c3b03e7ca9a3
+52;VH1 Brazil;;VH1B;Active;a0fe034c-7687-451e-af78-a12dd7cea413
+53;VH1 Classic;;VH1R;Active;3f59b875-7504-4420-876d-aa65eb7fce9f
+54;VH1 HD Latin America;;VHDL;Active;f65be2bb-18e5-48cc-aa9b-10f1d91a6105
+55;VH1 Megahits Latin America;;VMHL;Active;59abca10-d3ff-498f-b335-d4c3649ceb56
+56;VH1 Mexico;;VH1L;Active;d5dfb3bb-3ff0-4b21-aa52-93118eb17c05
+57;VH1 Soul;;VSOU;Active;bd575f75-a75f-4d0c-ae3b-3ff5b3e91e95
+58;Nick Jr. Latin America Brazil;;NJLABR;Active;593ef8d2-2921-4baf-aca2-6bb8a59136d5
+59;Nick Mom;;NKMOM;Active;71635628-1bc1-4103-973d-00bc8f7c891a
+60;Nick At Nite;;NAN;Active;e57239bf-3b22-4a65-a425-e3b3bcaa3fc1
+61;BET Gospel;;BETG;Active;0dd863d6-e0c2-464b-ad6c-a14c54827187
+62;BET Hip Hop;;BETHH;Active;cb9d6631-565e-4b11-8240-d5aa937167a5
+63;VIVA;;VIVA;Active;0df86a0d-f719-43f7-b116-161b0b3ddaef
+64;MTV UK;;MTVUK;Active;7b60d755-ff6b-4266-b296-2c7936ad0899

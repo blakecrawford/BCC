@@ -1,0 +1,285 @@
+{
+  "$schema": "http://schemas.viacom.com/what/is/the/path#",
+  "title": "GCC Message",
+  "description": "Canonical message format for all outbound communications from the GCC",
+  "type": "object",
+  "properties": {
+    "@schema": {
+      "description": "URL of the schema",
+      "type": "string"
+    },
+    "op": {
+      "description": "the CRUD operation represented by this message",
+      "enum": [
+        "create",
+        "update",
+        "remove"
+      ]
+    },
+    "type": {
+      "description": "the GCC entity type represented by this message",
+      "enum": [
+        "franchise",
+        "series",
+        "season",
+        "episode",
+        "movie",
+        "special",
+        "clip",
+        "module",
+        "version"
+      ]
+    },
+    "vmid": {
+      "description": "the VMID of this entity",
+      "type": "string"
+    },
+    "ref_lang": {
+      "description": "the BCP47 Reference Language",
+      "type": "string"
+    },
+    "titles": {
+      "description": "the set of all titles",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title_type": {
+            "type": "string"
+          },
+          "title_value": {
+            "type": "string"
+          },
+          "lang": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "description": {
+      "description": "the description of this entity",
+      "type": "string"
+    },
+    "provenance": {
+      "description": "the provenance for this entity",
+      "type": "string"
+    },
+    "typical_length": {
+      "type": "string"
+    },
+    "country_of_origin": {
+      "type": "string"
+    },
+    "genres": {
+      "description": "the set of genres for this entity, if applicable",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "authority": {
+            "type": "string"
+          },
+          "genre": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ratings": {
+      "description": "the set of ratings for this entity, if applicable.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "authority": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "string"
+          },
+          "descriptors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "advisory": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ext_attributes": {
+      "description": "the set of extended attributes for this specific entity type",
+      "type": "object",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/franchise"
+        },
+        {
+          "$ref": "#/definitions/series"
+        },
+        {
+          "$ref": "#/definitions/season"
+        },
+        {
+          "$ref": "#/definitions/episode"
+        },
+        {
+          "$ref": "#/definitions/movie"
+        },
+        {
+          "$ref": "#/definitions/special"
+        },
+        {
+          "$ref": "#/definitions/clip"
+        },
+        {
+          "$ref": "#/definitions/module"
+        },
+        {
+          "$ref": "#/definitions/version"
+        }
+      ]
+    },
+    "container_relations": {
+      "description": "the set of relationships between this entity and other container types.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "predicate": {
+            "type": "string"
+          },
+          "target_vmid": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "item_relations": {
+      "description": "the set of relationships between this entity and other item types.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "predicate": {
+            "type": "string"
+          },
+          "target_vmid": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "channel_relations": {
+      "description": "the set of relationships between this entity and channel entities.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "predicate": {
+            "type": "string"
+          },
+          "target_vmid": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "third_party_company_relationships": {
+      "description": "the set of third party company      relationships for this entity, if applicable",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "third_party_role": {
+            "type": "string"
+          },
+          "third_party_company": {
+            "type": "string"
+          }
+        }
+      }
+    },
+     
+    "third_party_identifiers": {
+      "description": "the set of third party identifiers for this entity, if applicable",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identification_authority": {
+            "type": "string"
+          },
+          "identifier": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ref_channel": {       
+        "description": "reference channel",
+        "type":"string" }  
+    },
+  "definitions": {
+    "franchise": {},
+    "series": {
+      "properties": {
+          "ref_lang": { "type": "string" },
+          "typical_length": { "type": "string" },       
+          "schedule_status": {"type": "string" }
+      }
+    },
+    "season": {
+      "properties": {
+        "number": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "string"
+        }
+      }
+    },
+    "episode": {
+      "properties": {
+        "production_number": {
+          "type": "string"
+        }
+      }
+    },
+    "movie": {},
+    "special": {},
+    "clip": {},
+    "module": {},
+    "version": {
+        "properties": {
+            "is_version_of": {
+                "type": "string",
+                "description": "The vmid of which this version is a version"
+            },
+            "customizations": {
+                "description": "The customizations that are applicable to this version",
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "customization": {
+                            "type": "string"
+                        },
+                        "object_property": {
+                            "type": "string"
+                        },
+                        "property_value": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+}

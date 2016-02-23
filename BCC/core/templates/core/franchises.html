@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Franchises</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>VMID</th>
+        <th>Reference Channel</th>
+        <th>Name</th>
+    </tr>
+{%  for franchise in franchise_list %}
+    <tr>
+        <td>{{ franchise.vmid }}</td>
+        <td>{{ franchise.reference_channel }}</td>
+        <td>{{ franchise.titles}}</td>
+    </tr>
+{% endfor %}
+</table>
+</body>
+</html>
