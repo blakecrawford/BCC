@@ -6,6 +6,8 @@ from .models import Order
 from .models import OrderLineItem
 from .models import Deliverable
 from .models import Delivery
+from .models import OrderPredecessor
+from .models import Milestone
 
 # Register your models here.
 
@@ -73,6 +75,37 @@ class DeliveryInline(admin.TabularInline):
         return self.extra
 
 
+class OrderPredecessorInline(admin.TabularInline):
+    model = OrderPredecessor
+    fk_name = 'order'
+    extra = 1
+    show_change_link = True
+
+    verbose_name = 'Order Predecessor'
+    verbose_name_plural = 'Order Predecessors'
+
+    fields = ('order', 'predecessor')
+
+    def get_extra(self, request, obj=None, **kwargs):
+        if obj:
+            return 0
+        return self.extra
+
+
+class MilestoneInline(admin.TabularInline):
+    model = Milestone
+    extra = 1
+    show_change_link = True
+
+    verbose_name = 'Milestone'
+    verbose_name_plural = 'Milestones'
+
+    def get_extra(self, request, obj=None, **kwargs):
+        if obj:
+            return 0
+        return self.extra
+
+
 @admin.register(OrderStatus)
 class OrderStatusAdmin(admin.ModelAdmin):
     pass
@@ -86,15 +119,26 @@ class PromiseAdmin(admin.ModelAdmin):
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
     inlines = [
+        MilestoneInline,
+        OrderPredecessorInline,
         OrderLineItemInline,
     ]
 
-    list_display = ('get_id', 'state','to', 'order_for','creator',)
+    list_display = ('get_id', 'to', 'order_for','creator',)
 
     def get_id(self, obj):
         return obj.id
     get_id.short_description = 'Order ID'
 
+
+@admin.register(OrderPredecessor)
+class OrderPredecessorAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Milestone)
+class MilestoneAdmin(admin.ModelAdmin):
+    pass
 
 @admin.register(OrderLineItem)
 class OrderLineItemAdmin(admin.ModelAdmin):

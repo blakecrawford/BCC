@@ -4,7 +4,7 @@ from django.db import models
 class EntityType(models.Model):
     name = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"Entity Type :: " + \
             self.name
 
@@ -16,7 +16,7 @@ class EntityType(models.Model):
 class Endpoint(models.Model):
     name = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"Endpoint " + \
             u' :: ' + \
             self.name
@@ -29,7 +29,7 @@ class Endpoint(models.Model):
 class Platform(models.Model):
     name = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"Platform " + \
             u" :: " + \
             self.name
@@ -42,7 +42,7 @@ class Platform(models.Model):
 class TechnicalVideoRequirements(models.Model):
     description = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"TVR :: " + \
                self.description
 
@@ -54,7 +54,7 @@ class TechnicalVideoRequirements(models.Model):
 class StaticImageRequirements(models.Model):
     description = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"SIR :: " + \
                self.description
 
@@ -66,7 +66,7 @@ class StaticImageRequirements(models.Model):
 class MetadataSchema(models.Model):
     schema = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"Metadata Schema :: " + \
                self.schema
 
@@ -78,7 +78,7 @@ class MetadataSchema(models.Model):
 class PackageStructure(models.Model):
     structure_template = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"Package Structure :: " + \
                self.structure_template
 
@@ -90,7 +90,7 @@ class PackageStructure(models.Model):
 class DeliveryProcess(models.Model):
     bpmn = models.CharField(max_length=256, null=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"Delivery Process :: " + \
                self.bpmn
 
@@ -110,7 +110,7 @@ class DeliveryContext(models.Model):
     delivery_process = models.ForeignKey(DeliveryProcess)
     entity_type = models.ForeignKey(EntityType)
 
-    def __unicode__(self):
+    def __str__(self):
         return u"Delivery Context ID " + \
                 str(self.id)
 

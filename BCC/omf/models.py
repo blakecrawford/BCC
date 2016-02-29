@@ -58,11 +58,9 @@ class Promise(models.Model):
 
 class Order(models.Model):
     to = models.ForeignKey(Endpoint, related_name='order_to')
-    state = enum.EnumField(OrderStates, default=OrderStates.PENDING)
-    #order_for = models.CharField(max_length=256, null=False)
-    order_for = models.ForeignKey(Endpoint, related_name='order_from')
+    order_for = models.ForeignKey(Endpoint, related_name='order_for')
     creator = models.CharField(max_length=256, null=False)
-    parent = models.ForeignKey("self", null=True, blank=True)
+    parent = models.ForeignKey("self", null=True, blank=True, related_name='parent_order')
 
     def __unicode__(self):
         return u"Order To " + \
@@ -88,6 +86,35 @@ class OrderStatus(models.Model):
     class Meta:
         verbose_name = "Order Status"
         verbose_name_plural = "Order Statuses"
+
+
+class Milestone(models.Model):
+    order = models.ForeignKey(Order)
+    milestone = enum.EnumField(OrderStates, default=OrderStates.PENDING)
+    date_time = models.DateTimeField(auto_now=True, blank=True)
+
+    def __unicode__(self):
+        return u'Milestone :: ' + \
+                str(self.milestone)
+
+    class Meta:
+        verbose_name = "Milestone"
+        verbose_name_plural = "Milestones"
+
+
+class OrderPredecessor(models.Model):
+    order = models.ForeignKey(Order, related_name='order')
+    predecessor = models.ForeignKey(Order, related_name='predecessor')
+
+    def __unicode__(self):
+        return u"Order :: " + \
+                str(self.order.id) + \
+                u" Must Be Preceded By :: " + \
+                str(self.predecessor.id)
+
+    class Meta:
+        verbose_name = "Order Predecessor"
+        verbose_name_plural = "Order Predecessors"
 
 
 class OrderLineItem(models.Model):

@@ -12,7 +12,7 @@ class Endeavor(models.Model):
     country_of_origin = models.ForeignKey(refdata_models.Country, null=True)
 
     def __unicode__(self):
-        return u'Endeavor :: ' + unicode(self.vmid)
+        return u'Endeavor :: ' + str(self.vmid)
 
     class Meta:
         ordering = ("vmid",)
@@ -25,11 +25,11 @@ class ContentContainer(Endeavor):
     cctype = enum.EnumField(ContainerTypesEnum, default=ContainerTypesEnum.FRANCHISE)
 
     def __unicode__(self):
-        return unicode(self.cctype) + \
+        return str(self.cctype) + \
                         u" :: " + \
                         self.default_title + \
                         u" :: " + \
-                        unicode(self.vmid)
+                        str(self.vmid)
 
     class Meta:
         ordering = ("cctype", "vmid")
@@ -44,7 +44,7 @@ class Franchise(ContentContainer):
             u" :: " + \
             self.default_title + \
             u" :: " + \
-            unicode(self.vmid)
+            str(self.vmid)
 
     class Meta:
         verbose_name = "Franchise"
@@ -60,7 +60,7 @@ class Series(ContentContainer):
             u" :: " + \
             self.default_title + \
             u" :: " + \
-            unicode(self.vmid)
+            str(self.vmid)
 
     class Meta:
         verbose_name = "Series"
@@ -76,7 +76,7 @@ class Season(ContentContainer):
             u" :: " + \
             self.default_title + \
             u" :: " + \
-            unicode(self.vmid)
+            str(self.vmid)
 
     class Meta:
         verbose_name = "Season"
