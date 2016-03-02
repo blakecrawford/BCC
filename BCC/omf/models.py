@@ -1,3 +1,4 @@
+from django.shortcuts import get_object_or_404
 from django.db import models
 from django_enumfield import enum
 from epd.models import Endpoint
@@ -78,7 +79,7 @@ class OrderStatus(models.Model):
     reporter = models.CharField(max_length=256)
     status_note = models.TextField(null=True)
     status_flag = enum.EnumField(StatusFlags, default=StatusFlags.NORMAL)
-    order = models.ForeignKey(Order, null=True)
+    order = models.ForeignKey(Order, null=True, related_name='statuses')
 
     def __unicode__(self):
         return u"Order Status :: "
@@ -89,7 +90,7 @@ class OrderStatus(models.Model):
 
 
 class Milestone(models.Model):
-    order = models.ForeignKey(Order)
+    order = models.ForeignKey(Order, null=True, related_name='milestones')
     milestone = enum.EnumField(OrderStates, default=OrderStates.PENDING)
     date_time = models.DateTimeField(auto_now=True, blank=True)
 
@@ -104,7 +105,7 @@ class Milestone(models.Model):
 
 class OrderPredecessor(models.Model):
     order = models.ForeignKey(Order, related_name='order')
-    predecessor = models.ForeignKey(Order, related_name='predecessor')
+    predecessor = models.ForeignKey(Order, related_name='predecessors')
 
     def __unicode__(self):
         return u"Order :: " + \
@@ -121,7 +122,7 @@ class OrderLineItem(models.Model):
     state = enum.EnumField(LineItemStates, default=LineItemStates.AVAILABLE)
     headline = models.CharField(max_length=256, null=False)
     notes = models.TextField(null=True)
-    order = models.ForeignKey(Order)
+    order = models.ForeignKey(Order, null=True, related_name='line_items')
 
     def __unicode__(self):
         return u"Line item ID " + \
@@ -136,7 +137,7 @@ class OrderLineItem(models.Model):
 
 class Deliverable(models.Model):
     headline = models.CharField(max_length=256, null=False)
-    line_item = models.ForeignKey(OrderLineItem)
+    line_item = models.ForeignKey(OrderLineItem, null=True, related_name='deliverables')
 
     def __unicode__(self):
         return u"Deliverable ID " + \
@@ -151,7 +152,7 @@ class Deliverable(models.Model):
 
 class Delivery(models.Model):
     headline = models.CharField(max_length=256, null=False)
-    deliverable = models.ForeignKey(Deliverable)
+    deliverable = models.ForeignKey(Deliverable, null=True, related_name='deliveries')
 
     def __unicode__(self):
         return u"Delivery ID " + \
@@ -162,3 +163,5 @@ class Delivery(models.Model):
     class Meta:
         verbose_name = "Delivery"
         verbose_name_plural = "Deliveries"
+
+

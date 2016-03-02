@@ -17,9 +17,13 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from rest_framework.authtoken.views import obtain_auth_token
 from refdata import urls as refdata_urls
+from omf import urls as omf_urls
+from epd import urls as epd_urls
 
 urlpatterns = [
     url(r'^core/', include('core.urls')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^api/', include(refdata_urls.router.urls)),
+    url(r'^api/refdata/', include(refdata_urls.router.urls)),
+    url(r'^api/omf/', include(omf_urls.router.urls)),
+    url(r'^api/epd/', include(epd_urls.router.urls)),
 ]

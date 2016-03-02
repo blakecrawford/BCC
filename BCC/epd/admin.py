@@ -9,6 +9,10 @@ from .models import MetadataSchema
 from .models import PackageStructure
 from .models import DeliveryProcess
 from .models import DeliveryContext
+from .models import Codec
+from .models import Specification
+from .models import ScanType
+from .models import ImageType
 
 
 class DeliveryContextInline(admin.TabularInline):
@@ -23,6 +27,26 @@ class DeliveryContextInline(admin.TabularInline):
         if obj:
             return 0
         return self.extra
+
+
+@admin.register(Codec)
+class CodecAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Specification)
+class SpecificationAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(ScanType)
+class ScanTypeAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(ImageType)
+class ImageTypeAdmin(admin.ModelAdmin):
+    pass
 
 
 @admin.register(EntityType)
