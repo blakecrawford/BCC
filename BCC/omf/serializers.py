@@ -24,11 +24,12 @@ class OrderStatusSerializer(serializers.ModelSerializer):
 
 
 class MilestoneSerializer(serializers.ModelSerializer):
-    order = serializers.HyperlinkedRelatedField(view_name='order-detail', many=False, read_only=True)
+    #order = serializers.HyperlinkedRelatedField(view_name='order-detail', many=False, read_only=True)
+
 
     class Meta:
         model = Milestone
-        fields = ('order', 'milestone', 'date_time')
+        fields = ('milestone', 'date_time')
 
 
 class OrderPredecessorSerializer(serializers.ModelSerializer):
