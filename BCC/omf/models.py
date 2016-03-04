@@ -42,9 +42,6 @@ class LineItemStates(enum.Enum):
     }
 
 
-
-
-
 class Promise(models.Model):
     type = models.CharField(max_length=256, null=False)
     parameters = models.TextField(null=False)
@@ -55,6 +52,17 @@ class Promise(models.Model):
     class Meta:
         verbose_name = "Promise"
         verbose_name_plural = "Promises"
+
+
+class OrderPredecessorType(models.Model):
+    name = models.CharField(max_length=256, null=False)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = "Predecessor Type"
+        verbose_name_plural = "Predecessor Types"
 
 
 class Order(models.Model):
@@ -106,6 +114,7 @@ class Milestone(models.Model):
 class OrderPredecessor(models.Model):
     order = models.ForeignKey(Order, related_name='order')
     predecessor = models.ForeignKey(Order, related_name='predecessors')
+    predecessor_type = models.ForeignKey(OrderPredecessorType, null=True, blank=True)
 
     def __unicode__(self):
         return u"Order :: " + \

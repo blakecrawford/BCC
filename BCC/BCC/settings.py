@@ -51,10 +51,10 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     #'simple_history.middleware.HistoryRequestMiddleware',
 )
 
@@ -140,7 +140,9 @@ SUIT_CONFIG = {
                                                             'omf.orderstatus',
                                                             'omf.promise',
                                                             'omf.deliverable',
-                                                            'omf.delivery',)},
+                                                            'omf.delivery',
+                                                            'omf.orderpredecessor',
+                                                            'omf.orderpredecessortype')},
         '-',
         {'label': 'Containers', 'icon': 'icon-book', 'models': ('core.franchise',
                                                                 'core.series',

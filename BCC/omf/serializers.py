@@ -4,6 +4,7 @@ from omf.models import Order
 from omf.models import OrderStatus
 from omf.models import Milestone
 from omf.models import OrderPredecessor
+from omf.models import OrderPredecessorType
 from omf.models import OrderLineItem
 from omf.models import Deliverable
 from omf.models import Delivery
@@ -26,10 +27,15 @@ class OrderStatusSerializer(serializers.ModelSerializer):
 class MilestoneSerializer(serializers.ModelSerializer):
     #order = serializers.HyperlinkedRelatedField(view_name='order-detail', many=False, read_only=True)
 
-
     class Meta:
         model = Milestone
         fields = ('milestone', 'date_time')
+
+class OrderPredecessorTypeSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = OrderPredecessorType
+        fields = ('name',)
 
 
 class OrderPredecessorSerializer(serializers.ModelSerializer):
@@ -49,30 +55,30 @@ class DeliverySerializer(serializers.ModelSerializer):
 
 
 class DeliverableSerializer(serializers.ModelSerializer):
-    deliveries = DeliverySerializer
+    deliveries = DeliverySerializer(many=True, read_only=True)
 
     class Meta:
         model = Deliverable
-        fields = ('headline', 'deliveries')
+        fields = ('headline', 'deliveries',)
 
 
 class OrderLineItemSerializer(serializers.ModelSerializer):
-    deliverables = DeliverableSerializer
+    deliverables = DeliverableSerializer(many=True, read_only=True)
 
     class Meta:
         model = OrderLineItem
-        fields = ('state', 'headline', 'notes', 'deliverables')
+        fields = ('state', 'headline', 'notes', 'deliverables',)
 
 
 class OrderSerializer(serializers.ModelSerializer):
 
-    line_items = OrderLineItemSerializer(many=True, read_only=False)
-    milestones = MilestoneSerializer(many=True, read_only=False)
-    predecessors = OrderPredecessorSerializer(many=True, read_only=False)
+    line_items = OrderLineItemSerializer(many=True, read_only=True)
+    milestones = MilestoneSerializer(many=True, read_only=True)
+    predecessors = OrderPredecessorSerializer(many=True, read_only=True)
     to = serializers.HyperlinkedRelatedField(view_name='endpoint-detail', many=False, read_only=True)
     order_for = serializers.HyperlinkedRelatedField(view_name='endpoint-detail', many=False, read_only=True)
     parent = serializers.HyperlinkedRelatedField(view_name='order-detail', many=False, read_only=True)
-    statuses = OrderStatusSerializer(many=True, read_only=False)
+    statuses = OrderStatusSerializer(many=True, read_only=True)
 
     class Meta:
         model = Order

@@ -22,6 +22,11 @@ class MilestoneViewSet(viewsets.ModelViewSet):
     serializer_class = omf.serializers.MilestoneSerializer
 
 
+class OrderPredecessorTypeViewSet(viewsets.ModelViewSet):
+    queryset = omf.models.OrderPredecessorType.objects.all()
+    serializer_class = omf.serializers.OrderPredecessorTypeSerializer
+
+
 class OrderPredecessorViewSet(viewsets.ModelViewSet):
     queryset = omf.models.OrderPredecessor.objects.all()
     serializer_class = omf.serializers.OrderPredecessorSerializer

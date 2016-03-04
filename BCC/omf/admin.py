@@ -7,6 +7,7 @@ from .models import OrderLineItem
 from .models import Deliverable
 from .models import Delivery
 from .models import OrderPredecessor
+from .models import OrderPredecessorType
 from .models import Milestone
 
 # Register your models here.
@@ -136,9 +137,15 @@ class OrderPredecessorAdmin(admin.ModelAdmin):
     pass
 
 
+@admin.register(OrderPredecessorType)
+class OrderPredecessorTypeAdmin(admin.ModelAdmin):
+    pass
+
+
 @admin.register(Milestone)
 class MilestoneAdmin(admin.ModelAdmin):
     pass
+
 
 @admin.register(OrderLineItem)
 class OrderLineItemAdmin(admin.ModelAdmin):
