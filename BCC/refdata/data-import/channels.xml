@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/Channel in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-07T14:03:29.618 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-07T14:03:29.619</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<Channel>
+			<base>
+				<id>1</id>
+				<name>BET</name>
+				<description></description>
+			</base>
+			<code>BET</code>
+			<status>Active</status>
+			<vmId>738d8c8f-c629-42e2-9944-dc0de94d0b41</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>2</id>
+				<name>Centric</name>
+				<description></description>
+			</base>
+			<code>CENTRIC</code>
+			<status>Active</status>
+			<vmId>d7fd4f20-228d-41bb-ad10-97144fc6cc29</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>3</id>
+				<name>Comedy Central</name>
+				<description></description>
+			</base>
+			<code>CMDY</code>
+			<status>Active</status>
+			<vmId>60458cd1-1bdd-40f8-b6f4-7ad7eee64332</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>4</id>
+				<name>Comedy Central 2</name>
+				<description></description>
+			</base>
+			<code>CCMO</code>
+			<status>Active</status>
+			<vmId>27056f72-8c38-4cd6-ab41-2654f6771f3b</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>5</id>
+				<name>Comedy Central Latin America/Brazil</name>
+				<description></description>
+			</base>
+			<code>CCLB</code>
+			<status>Active</status>
+			<vmId>e4d38ba8-575a-4d08-9d3a-def21482e92b</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>6</id>
+				<name>Comedy Central Latin America/North</name>
+				<description></description>
+			</base>
+			<code>CCLN</code>
+			<status>Active</status>
+			<vmId>2093207f-0a9c-4b00-bd27-e51452ac66e0</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>7</id>
+				<name>Comedy Central Latin America/South</name>
+				<description></description>
+			</base>
+			<code>CCLS</code>
+			<status>Active</status>
+			<vmId>665f944f-adfa-4eea-870d-39880b760337</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>8</id>
+				<name>Comedy Central Over-The-Top</name>
+				<description></description>
+			</base>
+			<code>CCOT</code>
+			<status>Active</status>
+			<vmId>71d56013-9452-4931-a72f-9f78938d47fd</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>9</id>
+				<name>Country Music Television </name>
+				<description></description>
+			</base>
+			<code>CMT</code>
+			<status>Active</status>
+			<vmId>ddaed9b4-e5f0-4118-9e3a-9737feb7885b</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>10</id>
+				<name>EPIX</name>
+				<description></description>
+			</base>
+			<code>EPIX</code>
+			<status>Active</status>
+			<vmId>f2c60388-d8bf-444a-be66-334e6b6d5048</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>11</id>
+				<name>EPIX 2</name>
+				<description></description>
+			</base>
+			<code>EPX2</code>
+			<status>Active</status>
+			<vmId>e91b6c03-7a61-4766-a277-ce668bcfe0b3</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>12</id>
+				<name>EPIX 3</name>
+				<description></description>
+			</base>
+			<code>EPX3</code>
+			<status>Active</status>
+			<vmId>8a38ec9f-6fb3-43b4-b807-b15237d4ab33</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>13</id>
+				<name>EPIX Affiliate</name>
+				<description></description>
+			</base>
+			<code>EPAF</code>
+			<status>Active</status>
+			<vmId>60c4b63a-fda3-4f71-8668-153c5320d82f</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>14</id>
+				<name>EPIX Drive-In</name>
+				<description></description>
+			</base>
+			<code>EPDI</code>
+			<status>Active</status>
+			<vmId>6815b01b-c674-4e29-96ed-62f24e676dd3</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>15</id>
+				<name>GameTrailers</name>
+				<description></description>
+			</base>
+			<code>GAME</code>
+			<status>Active</status>
+			<vmId>203e596b-112c-4f48-8fa4-e79bc89da2df</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>16</id>
+				<name>LOGO</name>
+				<description></description>
+			</base>
+			<code>LOGO</code>
+			<status>Active</status>
+			<vmId>b55012dc-e3e1-4470-b853-ba5712979ad4</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>17</id>
+				<name>MTV</name>
+				<description></description>
+			</base>
+			<code>MTV</code>
+			<status>Active</status>
+			<vmId>5e27688b-03bd-40a3-9479-74c1dec36438</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>18</id>
+				<name>MTV Brazil</name>
+				<description></description>
+			</base>
+			<code>MTVB</code>
+			<status>Active</status>
+			<vmId>824d2ac4-e4f6-48d4-9daa-29212d318376</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>19</id>
+				<name>MTV Hits</name>
+				<description></description>
+			</base>
+			<code>MTVH</code>
+			<status>Active</status>
+			<vmId>f9953e94-00ab-4d04-aac9-21d9673b4b99</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>20</id>
+				<name>MTV Hits Latin America</name>
+				<description></description>
+			</base>
+			<code>MHLA</code>
+			<status>Active</status>
+			<vmId>b1a9ee85-20e4-478a-a030-7478afda0eb3</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>21</id>
+				<name>MTV Jams</name>
+				<description></description>
+			</base>
+			<code>MTVJ</code>
+			<status>Active</status>
+			<vmId>e99e8010-4e9b-48a7-b472-1674e1717df2</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>22</id>
+				<name>MTV Latin America / Central</name>
+				<description></description>
+			</base>
+			<code>MTLC</code>
+			<status>Active</status>
+			<vmId>bb369181-8320-4e82-8dc6-12a5423a3812</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>23</id>
+				<name>MTV Latin America / Norte</name>
+				<description></description>
+			</base>
+			<code>MTLN</code>
+			<status>Active</status>
+			<vmId>2778a15f-66ed-42d5-8d11-ced7b7b49b52</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>24</id>
+				<name>MTV Latin America / Sur</name>
+				<description></description>
+			</base>
+			<code>MTLS</code>
+			<status>Active</status>
+			<vmId>6341078c-21f6-44fc-a665-6c91491a5b10</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>25</id>
+				<name>MTV University</name>
+				<description></description>
+			</base>
+			<code>MTVU</code>
+			<status>Active</status>
+			<vmId>bdc5485e-cd4d-4ca7-8c84-237705f113de</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>26</id>
+				<name>MTV2</name>
+				<description></description>
+			</base>
+			<code>MTV2</code>
+			<status>Active</status>
+			<vmId>ef7911f7-3bc3-4d70-8946-2f560eac854b</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>27</id>
+				<name>Nick Jr.</name>
+				<description></description>
+			</base>
+			<code>NOGG</code>
+			<status>Active</status>
+			<vmId>dba71d36-5347-4cbf-a1c1-b2ea8412694e</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>28</id>
+				<name>Nick Jr. Latin America</name>
+				<description></description>
+			</base>
+			<code>NJLA</code>
+			<status>Active</status>
+			<vmId>3d3c4bf2-3c6c-4728-9f4f-88691cfcda30</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>29</id>
+				<name>Nick Latin America/Brazil</name>
+				<description></description>
+			</base>
+			<code>NLAB</code>
+			<status>Active</status>
+			<vmId>ec10ab02-8306-4e89-95d4-4a3fa9586975</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>30</id>
+				<name>Nick Latin America/Central</name>
+				<description></description>
+			</base>
+			<code>NLC</code>
+			<status>Active</status>
+			<vmId>d29a11e4-deda-4ea4-9609-1b671e55d67f</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>31</id>
+				<name>Nick Latin America/HD</name>
+				<description></description>
+			</base>
+			<code>NLHD</code>
+			<status>Active</status>
+			<vmId>cb35334f-1b6e-46c1-89d8-91f1b63e737d</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>32</id>
+				<name>Nick Latin America/North</name>
+				<description></description>
+			</base>
+			<code>NLAN</code>
+			<status>Active</status>
+			<vmId>075317a8-1de4-4383-b29c-d880bd0287cc</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>33</id>
+				<name>Nick Latin America/South</name>
+				<description></description>
+			</base>
+			<code>NLAS</code>
+			<status>Active</status>
+			<vmId>90b25736-0d2f-49a5-acd7-31af2a5f3a68</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>34</id>
+				<name>Nickelodeon</name>
+				<description></description>
+			</base>
+			<code>NICK</code>
+			<status>Active</status>
+			<vmId>774b2f83-56e0-46ea-a00d-9e9a1232176a</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>35</id>
+				<name>Nickelodeon GAS</name>
+				<description></description>
+			</base>
+			<code>GAS</code>
+			<status>Active</status>
+			<vmId>63fa4471-16a7-415d-9cdc-e74ff614b8a4</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>36</id>
+				<name>Nicktoons</name>
+				<description></description>
+			</base>
+			<code>NKTN</code>
+			<status>Active</status>
+			<vmId>b66108c4-fa8b-4233-af7a-3f6d3ac2acea</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>37</id>
+				<name>Nicktoons Latin America</name>
+				<description></description>
+			</base>
+			<code>NKLA</code>
+			<status>Active</status>
+			<vmId>594a5fd1-9df6-43c0-999a-766982cec990</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>38</id>
+				<name>MTV Live</name>
+				<description>FKA Paladia</description>
+			</base>
+			<code>MHD</code>
+			<status>Active</status>
+			<vmId>c4628248-d3c2-40b0-af03-39190f7af4e3</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>39</id>
+				<name>Paramount</name>
+				<description></description>
+			</base>
+			<code>PAR</code>
+			<status>Active</status>
+			<vmId>6d8279ef-ee61-46f3-ae9a-9b224f5e7729</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>40</id>
+				<name>Paramount Brazil</name>
+				<description></description>
+			</base>
+			<code>PARBR</code>
+			<status>Active</status>
+			<vmId>e39b79e9-ae6c-4603-afea-dfde7a1b57b2</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>41</id>
+				<name>Paramount Latin America</name>
+				<description></description>
+			</base>
+			<code>PARLA</code>
+			<status>Active</status>
+			<vmId>b3db0ae7-fd6d-49ea-a1a5-4222252b7f62</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>42</id>
+				<name>Pure Country</name>
+				<description></description>
+			</base>
+			<code>PURE</code>
+			<status>Active</status>
+			<vmId>1a6cde06-5c81-451f-9d1e-cd8cfa5ae6db</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>43</id>
+				<name>SpikeTV</name>
+				<description></description>
+			</base>
+			<code>SPKE</code>
+			<status>Active</status>
+			<vmId>cd79862c-c45a-4675-9843-0e959eb5d764</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>44</id>
+				<name>SpikeTV Mobile</name>
+				<description></description>
+			</base>
+			<code>SPMO</code>
+			<status>Active</status>
+			<vmId>618f0a60-33e5-48dc-9767-0ab4cfc396d3</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>45</id>
+				<name>TeenNick</name>
+				<description></description>
+			</base>
+			<code>NNET</code>
+			<status>Active</status>
+			<vmId>eefb1c85-7b08-473c-ba12-292beb5fbb28</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>46</id>
+				<name>Tr3s</name>
+				<description></description>
+			</base>
+			<code>TR3S</code>
+			<status>Active</status>
+			<vmId>d0aeb8b9-ec8b-4aea-9659-c2ed5658d7d3</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>47</id>
+				<name>Tr3s Broadcast</name>
+				<description></description>
+			</base>
+			<code>TR3SB</code>
+			<status>Active</status>
+			<vmId>743ff2d0-f6c7-488a-9c9a-d72bd13398e8</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>48</id>
+				<name>Tr3s Mobile</name>
+				<description></description>
+			</base>
+			<code>TRMO</code>
+			<status>Active</status>
+			<vmId>3c55b017-8838-4b61-85eb-1f82bf38ba2a</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>49</id>
+				<name>TV Land</name>
+				<description></description>
+			</base>
+			<code>TVL</code>
+			<status>Active</status>
+			<vmId>784a9121-6346-4fd0-8d91-2264180a72bc</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>50</id>
+				<name>VH1</name>
+				<description></description>
+			</base>
+			<code>VH1</code>
+			<status>Active</status>
+			<vmId>91ca0a55-f20b-4daa-b791-feb8f736bce4</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>51</id>
+				<name>VH1 Argentina</name>
+				<description></description>
+			</base>
+			<code>VH1A</code>
+			<status>Active</status>
+			<vmId>de19399d-c101-4edc-bcc9-c3b03e7ca9a3</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>52</id>
+				<name>VH1 Brazil</name>
+				<description></description>
+			</base>
+			<code>VH1B</code>
+			<status>Active</status>
+			<vmId>a0fe034c-7687-451e-af78-a12dd7cea413</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>53</id>
+				<name>VH1 Classic</name>
+				<description></description>
+			</base>
+			<code>VH1R</code>
+			<status>Active</status>
+			<vmId>3f59b875-7504-4420-876d-aa65eb7fce9f</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>54</id>
+				<name>VH1 HD Latin America</name>
+				<description></description>
+			</base>
+			<code>VHDL</code>
+			<status>Active</status>
+			<vmId>f65be2bb-18e5-48cc-aa9b-10f1d91a6105</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>55</id>
+				<name>VH1 Megahits Latin America</name>
+				<description></description>
+			</base>
+			<code>VMHL</code>
+			<status>Active</status>
+			<vmId>59abca10-d3ff-498f-b335-d4c3649ceb56</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>56</id>
+				<name>VH1 Mexico</name>
+				<description></description>
+			</base>
+			<code>VH1L</code>
+			<status>Active</status>
+			<vmId>d5dfb3bb-3ff0-4b21-aa52-93118eb17c05</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>57</id>
+				<name>VH1 Soul</name>
+				<description></description>
+			</base>
+			<code>VSOU</code>
+			<status>Active</status>
+			<vmId>bd575f75-a75f-4d0c-ae3b-3ff5b3e91e95</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>58</id>
+				<name>Nick Jr. Latin America Brazil</name>
+				<description></description>
+			</base>
+			<code>NJLABR</code>
+			<status>Active</status>
+			<vmId>593ef8d2-2921-4baf-aca2-6bb8a59136d5</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>59</id>
+				<name>Nick Mom</name>
+				<description></description>
+			</base>
+			<code>NKMOM</code>
+			<status>Active</status>
+			<vmId>71635628-1bc1-4103-973d-00bc8f7c891a</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>60</id>
+				<name>Nick At Nite</name>
+				<description></description>
+			</base>
+			<code>NAN</code>
+			<status>Active</status>
+			<vmId>e57239bf-3b22-4a65-a425-e3b3bcaa3fc1</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>61</id>
+				<name>BET Gospel</name>
+				<description></description>
+			</base>
+			<code>BETGOSP</code>
+			<status>Active</status>
+			<vmId>0dd863d6-e0c2-464b-ad6c-a14c54827187</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>62</id>
+				<name>BET Hip Hop</name>
+				<description></description>
+			</base>
+			<code>BETHH</code>
+			<status>Active</status>
+			<vmId>cb9d6631-565e-4b11-8240-d5aa937167a5</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>63</id>
+				<name>VIVA</name>
+				<description></description>
+			</base>
+			<code>VIVA</code>
+			<status>Active</status>
+			<vmId>0df86a0d-f719-43f7-b116-161b0b3ddaef</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>64</id>
+				<name>MTV UK</name>
+				<description></description>
+			</base>
+			<code>MTVUK</code>
+			<status>Active</status>
+			<vmId>7b60d755-ff6b-4266-b296-2c7936ad0899</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>67</id>
+				<name>Comedy Central Extra</name>
+				<description></description>
+			</base>
+			<code>COMEX</code>
+			<status>Active</status>
+			<vmId>7977d536-e63b-4362-abfd-f211519ebac6</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>68</id>
+				<name>Comedy Central Family</name>
+				<description></description>
+			</base>
+			<code>COMFAM</code>
+			<status>Active</status>
+			<vmId>1b01eb59-9035-4c12-8bfa-6a31d5d70796</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>69</id>
+				<name>Paramount Comedy</name>
+				<description></description>
+			</base>
+			<code>PARACOM</code>
+			<status>Active</status>
+			<vmId>c9e70d62-39a1-4e13-98e5-6d3993e26385</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>70</id>
+				<name>MTV Base</name>
+				<description></description>
+			</base>
+			<code>MTVBASE</code>
+			<status>Active</status>
+			<vmId>caff2204-3dfa-4d4f-bdd4-b4632f1deebb</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>71</id>
+				<name>MTV Brand New</name>
+				<description></description>
+			</base>
+			<code>MTVBRNEW</code>
+			<status>Active</status>
+			<vmId>67668b41-6be4-4f68-a3c2-96e7d7740d2e</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>72</id>
+				<name>MTV Classic</name>
+				<description></description>
+			</base>
+			<code>MTVCLASSIC</code>
+			<status>Active</status>
+			<vmId>3f19b703-34c7-4667-82de-35642569b51b</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>73</id>
+				<name>MTV Dance</name>
+				<description></description>
+			</base>
+			<code>MTVDANCE</code>
+			<status>Active</status>
+			<vmId>253d659b-e60b-4a39-aaf0-d00b3c40ba23</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>74</id>
+				<name>MTV Idol</name>
+				<description></description>
+			</base>
+			<code>MTVIDOL</code>
+			<status>Active</status>
+			<vmId>84337668-39ec-4578-bc74-80e0843fd880</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>75</id>
+				<name>MTV Live HD</name>
+				<description></description>
+			</base>
+			<code>MTVLIVEHD</code>
+			<status>Active</status>
+			<vmId>927a2d96-d1cc-4a28-961b-a560ba2eb852</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>76</id>
+				<name>MTV Music</name>
+				<description></description>
+			</base>
+			<code>MTVMUSIC</code>
+			<status>Active</status>
+			<vmId>c6a9c3d3-3733-483a-ac33-1493b0800b5d</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>77</id>
+				<name>MTV Pulse</name>
+				<description></description>
+			</base>
+			<code>MTVPULSE</code>
+			<status>Active</status>
+			<vmId>b4908d01-5844-48b6-b0e0-9f478b6b841f</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>78</id>
+				<name>MTV Rocks</name>
+				<description></description>
+			</base>
+			<code>MTVRCKS</code>
+			<status>Active</status>
+			<vmId>73d6e95e-67e3-483f-b5dc-f646bddfdcc7</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>79</id>
+				<name>MTVN HD</name>
+				<description></description>
+			</base>
+			<code>MTVNHD</code>
+			<status>Active</status>
+			<vmId>9b19ed3e-cc89-4bb8-9de7-135bd4e1a5aa</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>80</id>
+				<name>Noggin</name>
+				<description></description>
+			</base>
+			<code>NOGGIN</code>
+			<status>Active</status>
+			<vmId>30e79f1a-d5f0-4cd2-8dc2-25151015d245</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>81</id>
+				<name>Kindernet</name>
+				<description></description>
+			</base>
+			<code>KINDERNET</code>
+			<status>Active</status>
+			<vmId>237df20e-155e-456d-9ce8-724534ebb6a5</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>82</id>
+				<name>Nick Hits</name>
+				<description></description>
+			</base>
+			<code>NICKHITS</code>
+			<status>Active</status>
+			<vmId>4f5cdd97-171c-40be-8c21-756285a0928f</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>83</id>
+				<name>Sonic Nick</name>
+				<description></description>
+			</base>
+			<code>SONICNICK</code>
+			<status>Active</status>
+			<vmId>f1cdf3ff-5975-49ff-aed8-4f1a855d6081</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>84</id>
+				<name>Colors</name>
+				<description></description>
+			</base>
+			<code>COLORS</code>
+			<status>Active</status>
+			<vmId>42eb697a-460c-41bd-a2f5-0276e22f4277</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>85</id>
+				<name>Game One</name>
+				<description></description>
+			</base>
+			<code>GAME1</code>
+			<status>Active</status>
+			<vmId>e2031cb9-55bd-4584-9ea2-0cfd9f26a477</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>86</id>
+				<name>Blink</name>
+				<description></description>
+			</base>
+			<code>BLINK</code>
+			<status>Active</status>
+			<vmId>1c83f840-4025-4f38-a5f0-aa2f52162076</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>87</id>
+				<name>TMF</name>
+				<description></description>
+			</base>
+			<code>TMF</code>
+			<status>Active</status>
+			<vmId>37a62098-99fc-4e18-9587-e208f4b4158e</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>88</id>
+				<name>Channel 5</name>
+				<description></description>
+			</base>
+			<code>CHANNEL5</code>
+			<status>Active</status>
+			<vmId>cc2b4b34-1274-4257-8b39-d0208d6a130e</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>89</id>
+				<name>5*</name>
+				<description></description>
+			</base>
+			<code>5*</code>
+			<status>Active</status>
+			<vmId>0e256055-d381-458c-aaff-f5c660fcd43a</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>90</id>
+				<name>5 USA</name>
+				<description></description>
+			</base>
+			<code>5USA</code>
+			<status>Active</status>
+			<vmId>9c5f7f21-1e71-4368-a528-352461e4261a</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>91</id>
+				<name>Game One Music HD</name>
+				<description></description>
+			</base>
+			<code>GAME1MUSICHD</code>
+			<status>Active</status>
+			<vmId>ec081d43-8b4d-4784-b8f0-fd2ccfd20f4f</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>92</id>
+				<name>J-One</name>
+				<description></description>
+			</base>
+			<code>J-ONE</code>
+			<status>Active</status>
+			<vmId>5ee5561c-55e0-4726-8a33-5089335fee7e</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>93</id>
+				<name>Paramount Picture Channels</name>
+				<description></description>
+			</base>
+			<code>PARAPICCHA</code>
+			<status>Active</status>
+			<vmId>8af3a259-243a-4984-968e-43fbfd14139a</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>94</id>
+				<name>All VMN Outlets</name>
+				<description>This refers to All VMN Outlets in the RMS system.
+This includes:
+VMN Channels		
+	Comedy Central Channels	
+		Comedy Central
+		Comedy Central Extra
+		Comedy Central Family
+		Paramount Comedy
+	Spike TV	
+	TV Land	
+	CMT Channels	
+		CMT
+		CMT Pure Country
+	LOGO	
+	MTV Channels	
+		MTV
+		MTV Tres
+		MTV2
+		mtvU
+		MTV Hits
+		MTV Jams
+		MTV Base
+		MTV Brand New
+		MTV Classic
+		MTV Dance
+		MTV Idol
+		MTV Live HD
+		MTV Music
+		MTV Pulse
+		MTV Rocks
+		MTVN HD
+	Palladia (fka MHD)	
+	VH1 Channels	
+		VH1
+		VH1 Classic
+		VH1 Soul
+		VH1 Megahits
+	Nickelodeon Channels	
+		Nickelodeon
+		Nick Jr.
+		TeenNick (fka The N)
+		NickToons
+		Nick at Nite
+		Noggin
+		Kindernet
+		Nick Hits
+		Sonic Nick
+		Nick Mom
+	Tr3s	
+	Colors	
+	Game One	
+	TMF	
+	Blink	
+	VIVA	
+	Plus VMN Service(s) TBD	
+	Channel 5 Channels	
+		Channel 5
+		5*
+		5 USA
+	Game One Music HD	
+	J-One	
+VMN Online		
+	Comedy Central Websites	
+	Spike TV Websites	
+	TV Land Websites	
+	CMT Websites	
+	LOGO Websites	
+	MTV Websites	
+		MTV.com
+		mtv2.com
+		mtvU.com
+	VH1 Websites	
+	Nickelodeon Websites	
+		mynoggin.com
+		nick at nite.com
+		Nick.com
+		NickJr.com
+		Noggin.com
+		the n.com
+		neopets.com
+		Teenick.com
+		parentsconnect.com
+		gocitykids.com
+	atom.com	
+	gametrailers.com	
+	xfire.com	
+	show specific website	
+	VIVA Websites	
+VMN Wireless Services		
+VMN Branded Outlets		
+	VMN Branded Blocks	
+	VMN Player	
+	Transportation Outlets (VMN Branded)	
+		In-Flight (VMN Branded)
+		Ships at Sea (VMN Branded)
+		Rail (VMN Branded)
+		Automotive (VMN Branded)
+	Theme Park (VMN Branded)	
+	Theme Restaurant (VMN Branded)	
+	Festivals (VMN Branded)	
+	Hotels (VMN Branded)	
+Future VMN Outlets		</description>
+			</base>
+			<code>AVMNO</code>
+			<status>Active</status>
+			<vmId>9a3373a2-f4e4-4866-b12b-c34b4cf5a0fa</vmId>
+		</Channel>
+		<Channel>
+			<base>
+				<id>95</id>
+				<name>All VIMN</name>
+				<description>All Viacom International Media Networks</description>
+			</base>
+			<code>VIMN</code>
+			<status>Active</status>
+			<vmId>14abd8d4-1f4a-4715-84e5-78183810b35e</vmId>
+		</Channel>
+	</root>
+</DataExchange>
