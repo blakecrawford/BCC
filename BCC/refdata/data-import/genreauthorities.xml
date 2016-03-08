@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/genreDetails/GenreAuthority in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-08T14:12:50.787 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-08T14:12:50.787</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<genreDetails>
+			<GenreAuthority>
+				<base>
+					<id>1</id>
+					<name>IMDb</name>
+					<description></description>
+				</base>
+				<RefLink>http://www.imdb.com/genre/</RefLink>
+			</GenreAuthority>
+			<GenreAuthority>
+				<base>
+					<id>2</id>
+					<name>EIDR</name>
+					<description></description>
+				</base>
+				<RefLink>http://eidr.org</RefLink>
+			</GenreAuthority>
+			<GenreAuthority>
+				<base>
+					<id>3</id>
+					<name>SAP</name>
+					<description></description>
+				</base>
+				<RefLink></RefLink>
+			</GenreAuthority>
+			<GenreAuthority>
+				<base>
+					<id>4</id>
+					<name>RMS</name>
+					<description></description>
+				</base>
+				<RefLink></RefLink>
+			</GenreAuthority>
+			<GenreAuthority>
+				<base>
+					<id>5</id>
+					<name>IPS</name>
+					<description></description>
+				</base>
+				<RefLink></RefLink>
+			</GenreAuthority>
+		</genreDetails>
+	</root>
+</DataExchange>

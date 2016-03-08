@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/genreDetails/GenreType in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-08T14:06:01.039 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-08T14:06:01.039</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<genreDetails>
+			<GenreType>
+				<base>
+					<id>1</id>
+					<name>Television</name>
+					<description></description>
+				</base>
+			</GenreType>
+			<GenreType>
+				<base>
+					<id>2</id>
+					<name>Motion Picture</name>
+					<description></description>
+				</base>
+			</GenreType>
+			<GenreType>
+				<base>
+					<id>3</id>
+					<name>Music</name>
+					<description></description>
+				</base>
+			</GenreType>
+			<GenreType>
+				<base>
+					<id>4</id>
+					<name>Video Game</name>
+					<description></description>
+				</base>
+			</GenreType>
+		</genreDetails>
+	</root>
+</DataExchange>

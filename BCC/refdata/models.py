@@ -9,10 +9,11 @@ CHANNEL_STATUSES = (
 
 class Channel(models.Model):
     vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
-    short_name = models.CharField(max_length=8)
+    short_name = models.CharField(max_length=25)
     name = models.CharField(max_length=256)
     description = models.TextField(null=True)
     status = models.IntegerField(choices=CHANNEL_STATUSES)
+    ebxid = models.IntegerField(null=True)
 
     def __str__(self):
         return self.short_name + \
@@ -26,11 +27,12 @@ class Channel(models.Model):
 
 
 class Country(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=255)
     code2 = models.CharField(max_length=2)
     code3 = models.CharField(max_length=3)
     codeN = models.IntegerField()
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -44,10 +46,11 @@ class Country(models.Model):
 
 
 class CountrySubdivision(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=255)
     country = models.ForeignKey(Country)
     subcode = models.CharField(max_length=3)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -63,6 +66,7 @@ class CountrySubdivision(models.Model):
 class GenreType(models.Model):
     vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
     name = models.CharField(max_length=45)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -76,10 +80,11 @@ class GenreType(models.Model):
 
 
 class GenreAuthority(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=255)
-    description = models.TextField()
-    ref_link = models.URLField(null=True)
+    description = models.TextField(null=True, blank=True)
+    ref_link = models.URLField(null=True, blank=True)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -93,11 +98,12 @@ class GenreAuthority(models.Model):
 
 
 class Genre(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=255)
     parent = models.ForeignKey("self", null=True, blank=True)
     authority = models.ForeignKey(GenreAuthority)
     type = models.ForeignKey(GenreType)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -111,10 +117,11 @@ class Genre(models.Model):
 
 
 class RatingAuthority(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=255)
     description = models.CharField(max_length=1024)
     ref_link = models.URLField(null=True)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -128,7 +135,9 @@ class RatingAuthority(models.Model):
 
 
 class RatingContentDescriptor(models.Model):
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     descriptor = models.CharField(max_length=255)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.descriptor
@@ -140,11 +149,12 @@ class RatingContentDescriptor(models.Model):
 
 
 class Rating(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=255)
     description = models.CharField(max_length=1024)
     authority = models.ForeignKey(RatingAuthority)
     descriptors = models.ManyToManyField(RatingContentDescriptor, blank=True)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -158,10 +168,11 @@ class Rating(models.Model):
 
 
 class Language(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=100)
     code2 = models.CharField(max_length=2)
     code3 = models.CharField(max_length=3)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -175,10 +186,11 @@ class Language(models.Model):
 
 
 class ScriptName(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=100)
     code = models.CharField(max_length=8)
     number = models.IntegerField()
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name + \
@@ -192,9 +204,11 @@ class ScriptName(models.Model):
 
 
 class BCP47Language(models.Model):
+    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
     language = models.ForeignKey(Language)
     script = models.ForeignKey(ScriptName)
     country = models.ForeignKey(Country)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.language.code2 + \
@@ -210,7 +224,7 @@ class BCP47Language(models.Model):
 
 
 class ActivityType(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=256)
     order = models.PositiveIntegerField(default=1)
 

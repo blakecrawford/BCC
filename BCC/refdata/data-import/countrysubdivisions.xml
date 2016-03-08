@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/CountrySubdivision in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-08T13:39:39.631 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-08T13:39:39.631</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<CountrySubdivision>
+			<base>
+				<id>1</id>
+				<name> Alabama</name>
+				<description></description>
+			</base>
+			<subCode>AL</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>2</id>
+				<name> Alaska</name>
+				<description></description>
+			</base>
+			<subCode>AK</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>3</id>
+				<name> Arizona</name>
+				<description></description>
+			</base>
+			<subCode>AZ</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>4</id>
+				<name> Arkansas</name>
+				<description></description>
+			</base>
+			<subCode>AR</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>5</id>
+				<name> California</name>
+				<description></description>
+			</base>
+			<subCode>CA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>6</id>
+				<name> Colorado</name>
+				<description></description>
+			</base>
+			<subCode>CO</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>7</id>
+				<name> Connecticut</name>
+				<description></description>
+			</base>
+			<subCode>CT</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>8</id>
+				<name> Delaware</name>
+				<description></description>
+			</base>
+			<subCode>DE</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>9</id>
+				<name> Florida</name>
+				<description></description>
+			</base>
+			<subCode>FL</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>10</id>
+				<name> Georgia</name>
+				<description></description>
+			</base>
+			<subCode>GA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>11</id>
+				<name> Hawaii</name>
+				<description></description>
+			</base>
+			<subCode>HI</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>12</id>
+				<name> Idaho</name>
+				<description></description>
+			</base>
+			<subCode>ID</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>13</id>
+				<name> Illinois</name>
+				<description></description>
+			</base>
+			<subCode>IL</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>14</id>
+				<name> Indiana</name>
+				<description></description>
+			</base>
+			<subCode>IN</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>15</id>
+				<name> Iowa</name>
+				<description></description>
+			</base>
+			<subCode>IA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>16</id>
+				<name> Kansas</name>
+				<description></description>
+			</base>
+			<subCode>KS</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>17</id>
+				<name> Kentucky</name>
+				<description></description>
+			</base>
+			<subCode>KY</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>18</id>
+				<name> Louisiana</name>
+				<description></description>
+			</base>
+			<subCode>LA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>19</id>
+				<name> Maine</name>
+				<description></description>
+			</base>
+			<subCode>ME</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>20</id>
+				<name> Maryland</name>
+				<description></description>
+			</base>
+			<subCode>MD</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>21</id>
+				<name> Massachetts</name>
+				<description></description>
+			</base>
+			<subCode>MA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>22</id>
+				<name> Michigan</name>
+				<description></description>
+			</base>
+			<subCode>MI</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>23</id>
+				<name> Minnesota</name>
+				<description></description>
+			</base>
+			<subCode>MN</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>24</id>
+				<name> Mississippi</name>
+				<description></description>
+			</base>
+			<subCode>MS</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>25</id>
+				<name> Missouri</name>
+				<description></description>
+			</base>
+			<subCode>MO</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>26</id>
+				<name> Montana</name>
+				<description></description>
+			</base>
+			<subCode>MT</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>27</id>
+				<name> Nebraska</name>
+				<description></description>
+			</base>
+			<subCode>NE</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>28</id>
+				<name> Nevada</name>
+				<description></description>
+			</base>
+			<subCode>NV</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>29</id>
+				<name> New Hampshire</name>
+				<description></description>
+			</base>
+			<subCode>NH</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>30</id>
+				<name> New Jersey</name>
+				<description></description>
+			</base>
+			<subCode>NJ</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>31</id>
+				<name> New Mexico</name>
+				<description></description>
+			</base>
+			<subCode>NM</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>32</id>
+				<name> New York</name>
+				<description></description>
+			</base>
+			<subCode>NY</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>33</id>
+				<name> North Carolina</name>
+				<description></description>
+			</base>
+			<subCode>NC</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>34</id>
+				<name> North Dakota</name>
+				<description></description>
+			</base>
+			<subCode>ND</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>35</id>
+				<name> Ohio</name>
+				<description></description>
+			</base>
+			<subCode>OH</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>36</id>
+				<name> Oklahoma</name>
+				<description></description>
+			</base>
+			<subCode>OK</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>37</id>
+				<name> Oregon</name>
+				<description></description>
+			</base>
+			<subCode>OR</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>38</id>
+				<name> Pennsylvania</name>
+				<description></description>
+			</base>
+			<subCode>PA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>39</id>
+				<name> Rhode Island</name>
+				<description></description>
+			</base>
+			<subCode>RI</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>40</id>
+				<name> South Carolina</name>
+				<description></description>
+			</base>
+			<subCode>SC</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>41</id>
+				<name> South Dakota</name>
+				<description></description>
+			</base>
+			<subCode>SD</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>42</id>
+				<name> Tennessee</name>
+				<description></description>
+			</base>
+			<subCode>TN</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>43</id>
+				<name> Texas</name>
+				<description></description>
+			</base>
+			<subCode>TX</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>44</id>
+				<name> Utah</name>
+				<description></description>
+			</base>
+			<subCode>UT</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>45</id>
+				<name> Vermont</name>
+				<description></description>
+			</base>
+			<subCode>VT</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>46</id>
+				<name> Virginia</name>
+				<description></description>
+			</base>
+			<subCode>VA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>47</id>
+				<name> Washington</name>
+				<description></description>
+			</base>
+			<subCode>WA</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>48</id>
+				<name> West Virginia</name>
+				<description></description>
+			</base>
+			<subCode>WV</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>49</id>
+				<name> Wisconsin</name>
+				<description></description>
+			</base>
+			<subCode>WI</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>50</id>
+				<name> Wyoming</name>
+				<description></description>
+			</base>
+			<subCode>WY</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>51</id>
+				<name> District of Columbia</name>
+				<description></description>
+			</base>
+			<subCode>DC</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>52</id>
+				<name> American Samoa</name>
+				<description></description>
+			</base>
+			<subCode>AS</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>53</id>
+				<name> Guam</name>
+				<description></description>
+			</base>
+			<subCode>GU</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>54</id>
+				<name> Northern Mariana Islands</name>
+				<description></description>
+			</base>
+			<subCode>MP</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>55</id>
+				<name> Puerto Rico</name>
+				<description></description>
+			</base>
+			<subCode>PR</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>56</id>
+				<name> United States Minor Outlying Islands</name>
+				<description></description>
+			</base>
+			<subCode>UM</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+		<CountrySubdivision>
+			<base>
+				<id>57</id>
+				<name> Virgin Islands, U.S.</name>
+				<description></description>
+			</base>
+			<subCode>VI</subCode>
+			<parentCountry>1</parentCountry>
+		</CountrySubdivision>
+	</root>
+</DataExchange>

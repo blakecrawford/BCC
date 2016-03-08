@@ -22,7 +22,7 @@ class Title(models.Model):
     vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
     title_text = models.CharField(max_length=1056)
     title_type = models.ForeignKey(TitleType)
-    language = models.ForeignKey(refdata_models.BCP47Language, null=True)
+    #language = models.ForeignKey(refdata_models.BCP47Language, null=True)
     endeavor = models.ForeignKey(Endeavor)
 
     def __unicode__(self):

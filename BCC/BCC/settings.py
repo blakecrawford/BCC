@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'BCC.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bcc3',
+        'NAME': 'bcc4',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
