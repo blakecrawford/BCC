@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/Provenance in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-14T10:52:11.582 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-14T10:52:11.582</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<Provenance>
+			<base>
+				<id>1</id>
+				<name>Original In House</name>
+				<description>A VMN wholly owned and internally originated property that was self-produced. </description>
+			</base>
+		</Provenance>
+		<Provenance>
+			<base>
+				<id>2</id>
+				<name>Original 3rd Party</name>
+				<description>A VMN wholly owned and internally originated property whose production services were out-sourced to a 3rd party production company. </description>
+			</base>
+		</Provenance>
+		<Provenance>
+			<base>
+				<id>3</id>
+				<name>Co Production</name>
+				<description>A property which was produced by VMN in conjunction with an external production company whereby both parties may share in the ownership, media rights, ancillary rights and/or revenues. </description>
+			</base>
+		</Provenance>
+		<Provenance>
+			<base>
+				<id>4</id>
+				<name>Licensed Original</name>
+				<description>An externally originated property where VMN contributed to the financing of the production and/or provided editorial input but does not have any ownership to the property. Rather, VMN's exploitation (and ancillary rights if any) are licensed from the rightsholder.   This includes properties either produced by us or the licensor, but either way the licensor is the rightsholder.  </description>
+			</base>
+		</Provenance>
+		<Provenance>
+			<base>
+				<id>5</id>
+				<name>Acquired</name>
+				<description>An existing property wholly owned by an external party/entity which licensed or sold certain rights to such property to VMN</description>
+			</base>
+		</Provenance>
+	</root>
+</DataExchange>

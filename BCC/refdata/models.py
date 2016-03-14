@@ -7,6 +7,35 @@ CHANNEL_STATUSES = (
 )
 
 
+class ThirdPartyIdentificationAuthority(models.Model):
+    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    name = models.CharField(max_length=256)
+    description = models.TextField(blank=True, null=True, max_length=1028)
+    ebxid = models.IntegerField(null=True)
+
+    def __str__(self):
+        return u'Third Party Identifier :: ' + \
+            self.name
+
+    class Meta:
+        verbose_name = "Third Party Identification Authority"
+        verbose_name_plural = "Third Party Identification Authorities"
+
+
+class Provenance(models.Model):
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
+    name = models.CharField(max_length=256)
+    description = models.TextField(null=True, blank=True, max_length=1024)
+    ebxid = models.IntegerField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = "Provenance"
+        verbose_name_plural = "Provenances"
+
+
 class Channel(models.Model):
     vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     short_name = models.CharField(max_length=25)
@@ -102,6 +131,7 @@ class Genre(models.Model):
     name = models.CharField(max_length=255)
     parent = models.ForeignKey("self", null=True, blank=True)
     authority = models.ForeignKey(GenreAuthority)
+    description = models.TextField(null=True, blank=True, max_length=1024)
     type = models.ForeignKey(GenreType)
     ebxid = models.IntegerField(null=True, blank=True)
 
@@ -137,6 +167,7 @@ class RatingAuthority(models.Model):
 class RatingContentDescriptor(models.Model):
     vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     descriptor = models.CharField(max_length=255)
+    description = models.TextField(null=True, blank=True, max_length=1024)
     ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
@@ -171,7 +202,7 @@ class Language(models.Model):
     vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     name = models.CharField(max_length=100)
     code2 = models.CharField(max_length=2)
-    code3 = models.CharField(max_length=3)
+    code3 = models.CharField(max_length=3, null=True, blank=True)
     ebxid = models.IntegerField(null=True, blank=True)
 
     def __str__(self):

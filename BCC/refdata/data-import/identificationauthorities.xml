@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/IdentificationAuthority in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-14T10:16:32.394 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-14T10:16:32.394</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<IdentificationAuthority>
+			<base>
+				<id>1</id>
+				<name>IMDb</name>
+				<description>Internet Movie Database</description>
+			</base>
+		</IdentificationAuthority>
+		<IdentificationAuthority>
+			<base>
+				<id>2</id>
+				<name>EIDR</name>
+				<description>Entertainment Identifier Registry</description>
+			</base>
+		</IdentificationAuthority>
+		<IdentificationAuthority>
+			<base>
+				<id>3</id>
+				<name>PTS</name>
+				<description></description>
+			</base>
+		</IdentificationAuthority>
+		<IdentificationAuthority>
+			<base>
+				<id>4</id>
+				<name>SAP</name>
+				<description></description>
+			</base>
+		</IdentificationAuthority>
+		<IdentificationAuthority>
+			<base>
+				<id>5</id>
+				<name>RMS</name>
+				<description></description>
+			</base>
+		</IdentificationAuthority>
+		<IdentificationAuthority>
+			<base>
+				<id>6</id>
+				<name>IPS</name>
+				<description></description>
+			</base>
+		</IdentificationAuthority>
+	</root>
+</DataExchange>

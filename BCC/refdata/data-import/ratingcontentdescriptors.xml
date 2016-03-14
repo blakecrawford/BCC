@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/ratingDetails/RatingContentDescriptor in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-14T12:08:43.145 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-14T12:08:43.145</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<ratingDetails>
+			<RatingContentDescriptor>
+				<base>
+					<id>1</id>
+					<name>Alcohol Reference  </name>
+					<description>Reference to and/or images of alcoholic beverages</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>2</id>
+					<name>Animated Blood  </name>
+					<description>Discolored and/or unrealistic depictions of blood</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>3</id>
+					<name>Blood  </name>
+					<description>Depictions of blood</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>4</id>
+					<name>Blood and Gore  </name>
+					<description>Depictions of blood or the mutilation of body parts</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>5</id>
+					<name>Cartoon Violence  </name>
+					<description>Violent actions involving cartoonlike situations and characters. May include violence where a character is unharmed after the action has been inflicted</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>6</id>
+					<name>Comic Mischief  </name>
+					<description>Depictions or dialogue involving slapstick or suggestive humor</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>7</id>
+					<name>Crude Humor  </name>
+					<description>Depictions or dialogue involving vulgar antics, including “bathroom” humor</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>8</id>
+					<name>Drug Reference (ESRB)  </name>
+					<description>Reference to and/or images of illegal drugs</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>9</id>
+					<name>Fantasy Violence  </name>
+					<description>Violent actions of a fantasy nature, involving human or nonhuman characters in situations easily distinguishable from real life</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>10</id>
+					<name>Intense Violence  </name>
+					<description>Graphic and realisticlooking depictions of physical conflict. May involve extreme and/or realistic blood, gore, weapons and depictions of human injury and death</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>11</id>
+					<name>Language (ESRB)</name>
+					<description>Mild to moderate use of profanity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>12</id>
+					<name>Lyrics  </name>
+					<description>Mild references to profanity, sexuality, violence, alcohol or drug use in music</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>13</id>
+					<name>Mature Humor  </name>
+					<description>Depictions or dialogue involving &quot;adult&quot; humor, including sexual references</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>14</id>
+					<name>Nudity (ESRB)</name>
+					<description>Graphic or prolonged depictions of nudity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>15</id>
+					<name>Partial Nudity (ESRB)</name>
+					<description>Brief and/or mild depictions of nudity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>16</id>
+					<name>Real Gambling  </name>
+					<description>Player can gamble, including betting or wagering real cash or currency</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>17</id>
+					<name>Sexual Content (ESRB)</name>
+					<description>Nonexplicit depictions of sexual behavior, possibly including partial nudity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>18</id>
+					<name>Sexual Themes (ESRB)</name>
+					<description>References to sex or sexuality</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>19</id>
+					<name>Sexual Violence </name>
+					<description>Depictions of rape or other violent sexual acts</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>20</id>
+					<name>Simulated Gambling  </name>
+					<description>Player can gamble without betting or wagering real cash or currency</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>21</id>
+					<name>Strong Language (ESRB)  </name>
+					<description>Explicit and/or frequent use of profanity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>22</id>
+					<name>Strong Lyrics  </name>
+					<description>Explicit and/or frequent references to profanity, sex, violence, alcohol or drug use in music</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>23</id>
+					<name>Strong Sexual Content  </name>
+					<description>Explicit and/or frequent depictions of sexual behavior, possibly including nudity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>24</id>
+					<name>Suggestive Themes  </name>
+					<description>Mild provocative references or materials</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>25</id>
+					<name>Tobacco Reference </name>
+					<description>Reference to and/or images of tobacco products</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>26</id>
+					<name>Use of Alcohol  </name>
+					<description>The consumption of alcoholic beverages</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>27</id>
+					<name>Use of Drugs </name>
+					<description>The consumption or use of illegal drugs</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>28</id>
+					<name>Use of Tobacco  </name>
+					<description>The consumption of tobacco products</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>29</id>
+					<name>Violence (ESRB)  </name>
+					<description>Scenes involving aggressive conflict. May contain bloodless dismemberment</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>30</id>
+					<name>Violent References  </name>
+					<description>References to violent acts</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>31</id>
+					<name>D</name>
+					<description>suggestive dialogue (usually means talks about sex)</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>32</id>
+					<name>L</name>
+					<description>coarse or crude language</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>33</id>
+					<name>S</name>
+					<description>sexual situations</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>34</id>
+					<name>V</name>
+					<description>violence</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>35</id>
+					<name>FV</name>
+					<description>fantasy violence (children's programming only)</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>36</id>
+					<name>Language (MPAA)</name>
+					<description>Mild to moderate use of profanity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>37</id>
+					<name>Sexual Content (MPAA)</name>
+					<description>Nonexplicit depictions of sexual behavior, possibly including partial nudity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>38</id>
+					<name>Sexual Themes (MPAA)</name>
+					<description>References to sex or sexuality</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>39</id>
+					<name>Violence (MPAA) </name>
+					<description>some depitcions of violence</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>40</id>
+					<name>Drug Reference (MPAA)</name>
+					<description>Reference to and/or images of illegal drugs</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>41</id>
+					<name>Nudity (MPAA)  </name>
+					<description>Graphic or prolonged depictions of nudity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>42</id>
+					<name>Partial Nudity (MPAA)</name>
+					<description>Brief and/or mild depictions of nudity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>43</id>
+					<name>Strong Language (MPAA)  </name>
+					<description>Explicit and/or frequent use of profanity</description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>44</id>
+					<name>Brief Nudity (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>45</id>
+					<name>Adult Language (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>46</id>
+					<name>Rape (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>47</id>
+					<name>Graphic Violence (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>48</id>
+					<name>Mild Violence (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>49</id>
+					<name>Sex (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>50</id>
+					<name>Graphic Language (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+			<RatingContentDescriptor>
+				<base>
+					<id>51</id>
+					<name>Adult Theme (PTS)</name>
+					<description></description>
+				</base>
+			</RatingContentDescriptor>
+		</ratingDetails>
+	</root>
+</DataExchange>

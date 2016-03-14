@@ -15,7 +15,7 @@ from refdata.models import ActivityType
 from refdata.models import ObjectProperty
 from refdata.models import Activity
 from refdata.models import ActivityPropertyRelation
-
+from refdata.models import ThirdPartyIdentificationAuthority
 
 class ChannelSerializer(serializers.ModelSerializer):
     class Meta:
@@ -30,11 +30,12 @@ class CountrySerializer(serializers.ModelSerializer):
 
 
 class CountrySubdivisionSerializer(serializers.ModelSerializer):
-    country = CountrySerializer(many=False, read_only=True)
+    #country = CountrySerializer(many=False, read_only=True)
+    country = serializers.HyperlinkedRelatedField(view_name='country-detail', many=False, read_only=True)
 
     class Meta:
         model = CountrySubdivision
-        fields = ('pk', 'vmid', 'name', 'country', 'subcode')
+        fields = ('pk', 'name', 'country', 'subcode')
 
 
 class GenreTypeSerializer(serializers.ModelSerializer):
@@ -46,7 +47,7 @@ class GenreTypeSerializer(serializers.ModelSerializer):
 class GenreAuthoritySerializer(serializers.ModelSerializer):
     class Meta:
         model = GenreAuthority
-        fields = ('pk', 'vmid', 'description', 'ref_link')
+        fields = ('pk', 'vmid', 'name', 'description', 'ref_link')
 
 
 class GenreSerializer(serializers.ModelSerializer):
@@ -56,7 +57,7 @@ class GenreSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Genre
-        fields = ('pk', 'vmid', 'name', 'parent', 'authority', 'type')
+        fields = ('pk', 'vmid', 'name', 'description', 'parent', 'authority', 'type')
 
 
 class RatingAuthoritySerializer(serializers.ModelSerializer):
@@ -68,7 +69,7 @@ class RatingAuthoritySerializer(serializers.ModelSerializer):
 class RatingContentDescriptorSerializer(serializers.ModelSerializer):
     class Meta:
         model = RatingContentDescriptor
-        fields = ('pk', 'descriptor')
+        fields = ('pk', 'descriptor', 'description')
 
 
 class RatingSerializer(serializers.ModelSerializer):
@@ -130,3 +131,9 @@ class ActivityPropertyRelationSerializer(serializers.ModelSerializer):
     class Meta:
         model = ActivityPropertyRelation
         fields = ('activity', 'object_property', 'required')
+
+
+class ThirdPartyIdentificationAuthoritySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ThirdPartyIdentificationAuthority
+        fields = ('vmid', 'name', 'description')

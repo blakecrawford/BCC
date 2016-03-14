@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/ratingDetails/RatingAuthority in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-14T12:08:30.531 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-14T12:08:30.532</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<ratingDetails>
+			<RatingAuthority>
+				<base>
+					<id>1</id>
+					<name>MPAA</name>
+					<description>Motion Picture Association of America</description>
+				</base>
+				<RefLink>http://www.mpaa.org/</RefLink>
+			</RatingAuthority>
+			<RatingAuthority>
+				<base>
+					<id>2</id>
+					<name>TV Parental Guidelines</name>
+					<description>TV Parental Guidelines</description>
+				</base>
+				<RefLink>http://www.tvguidelines.org/</RefLink>
+			</RatingAuthority>
+			<RatingAuthority>
+				<base>
+					<id>3</id>
+					<name>ESRB</name>
+					<description>Entertainment Software Rating Board</description>
+				</base>
+				<RefLink>http://www.esrb.org/</RefLink>
+			</RatingAuthority>
+		</ratingDetails>
+	</root>
+</DataExchange>

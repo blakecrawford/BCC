@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/TitleType in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-14T11:02:47.527 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-14T11:02:47.527</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<TitleType>
+			<base>
+				<id>1</id>
+				<name>Default Title</name>
+				<description></description>
+			</base>
+			<lengthRestriction></lengthRestriction>
+			<isUnique>true</isUnique>
+		</TitleType>
+		<TitleType>
+			<base>
+				<id>2</id>
+				<name>Short Title (18 char)</name>
+				<description>short title used primarily for PTS Short Title field, limit of 18 characters </description>
+			</base>
+			<lengthRestriction>18</lengthRestriction>
+			<isUnique>true</isUnique>
+		</TitleType>
+		<TitleType>
+			<base>
+				<id>3</id>
+				<name>Long Title</name>
+				<description></description>
+			</base>
+			<lengthRestriction></lengthRestriction>
+			<isUnique>true</isUnique>
+		</TitleType>
+		<TitleType>
+			<base>
+				<id>4</id>
+				<name>Working Title</name>
+				<description></description>
+			</base>
+			<lengthRestriction></lengthRestriction>
+			<isUnique>true</isUnique>
+		</TitleType>
+		<TitleType>
+			<base>
+				<id>5</id>
+				<name>Formerly Known As Title</name>
+				<description></description>
+			</base>
+			<lengthRestriction></lengthRestriction>
+			<isUnique>false</isUnique>
+		</TitleType>
+		<TitleType>
+			<base>
+				<id>6</id>
+				<name>Also Known As Title</name>
+				<description></description>
+			</base>
+			<lengthRestriction></lengthRestriction>
+			<isUnique>false</isUnique>
+		</TitleType>
+		<TitleType>
+			<base>
+				<id>7</id>
+				<name>Custom Season Name Title</name>
+				<description>primarily used for RMS to define specific season titles </description>
+			</base>
+			<lengthRestriction></lengthRestriction>
+			<isUnique>true</isUnique>
+		</TitleType>
+		<TitleType>
+			<base>
+				<id>8</id>
+				<name>Short Title (30 char)</name>
+				<description>Short Title field primarily used for SAP. Limited to 30 characters. 
+</description>
+			</base>
+			<lengthRestriction>30</lengthRestriction>
+			<isUnique>true</isUnique>
+		</TitleType>
+	</root>
+</DataExchange>

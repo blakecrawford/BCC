@@ -8,6 +8,7 @@ class TitleType(models.Model):
     vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
     name = models.CharField(max_length=256)
     length_restriction = models.IntegerField(null=True)
+    is_Unique = models.BooleanField(default=False)
 
     def __unicode__(self):
         return self.name

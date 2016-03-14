@@ -6,10 +6,11 @@ from .enums import ContainerTypesEnum
 
 
 class Endeavor(models.Model):
-    vmid = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
+    vmid = models.UUIDField(default=uuid.uuid4, editable=True, primary_key=True)
     description = models.TextField(max_length=1024, null=True)
     reference_channel = models.ForeignKey(refdata_models.Channel, null=True)
     country_of_origin = models.ForeignKey(refdata_models.Country, null=True)
+    ebxid = models.IntegerField(null=True, blank=True)
 
     def __unicode__(self):
         return u'Endeavor :: ' + str(self.vmid)
@@ -54,6 +55,8 @@ class Franchise(ContentContainer):
 class Series(ContentContainer):
     reference_language = models.ForeignKey(refdata_models.BCP47Language, null=True)
     typical_length = models.CharField(max_length=12, null=True)
+    provenance = models.ForeignKey(refdata_models.Provenance, null=True)
+    genres = models.ManyToManyField(refdata_models.Genre, null=True)
 
     def __unicode__(self):
         return u"Series" + \

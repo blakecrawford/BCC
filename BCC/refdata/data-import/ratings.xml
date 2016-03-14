@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--XML content generated for /root/Rating in data set VcmCommonReferenceDataSet in data space VcmCommonDataSpace on 2016-03-14T12:09:04.222 by user [crawforb].-->
+<DataExchange>
+	<header>
+		<appname>VcmCommonReferenceDataSet-1457377390802</appname>
+		<appversion></appversion>
+		<date>2016-03-14T12:09:04.223</date>
+		<apptype>[ON] DefaultXML</apptype>
+	</header>
+	<root>
+		<Rating>
+			<base>
+				<id>1</id>
+				<name>G</name>
+				<description>General Audiences</description>
+			</base>
+			<RatingAuthority>1</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>2</id>
+				<name>PG </name>
+				<description>Parental Guidance Suggested</description>
+			</base>
+			<RatingAuthority>1</RatingAuthority>
+			<RatingContentDescriptor>44</RatingContentDescriptor>
+			<RatingContentDescriptor>46</RatingContentDescriptor>
+			<RatingContentDescriptor>39</RatingContentDescriptor>
+			<RatingContentDescriptor>47</RatingContentDescriptor>
+			<RatingContentDescriptor>48</RatingContentDescriptor>
+			<RatingContentDescriptor>41</RatingContentDescriptor>
+			<RatingContentDescriptor>49</RatingContentDescriptor>
+			<RatingContentDescriptor>45</RatingContentDescriptor>
+			<RatingContentDescriptor>50</RatingContentDescriptor>
+			<RatingContentDescriptor>51</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>3</id>
+				<name>PG-13 </name>
+				<description>Parents Strongly Cautioned</description>
+			</base>
+			<RatingAuthority>1</RatingAuthority>
+			<RatingContentDescriptor>44</RatingContentDescriptor>
+			<RatingContentDescriptor>41</RatingContentDescriptor>
+			<RatingContentDescriptor>46</RatingContentDescriptor>
+			<RatingContentDescriptor>48</RatingContentDescriptor>
+			<RatingContentDescriptor>47</RatingContentDescriptor>
+			<RatingContentDescriptor>39</RatingContentDescriptor>
+			<RatingContentDescriptor>49</RatingContentDescriptor>
+			<RatingContentDescriptor>45</RatingContentDescriptor>
+			<RatingContentDescriptor>50</RatingContentDescriptor>
+			<RatingContentDescriptor>51</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>4</id>
+				<name>R </name>
+				<description>Restricted</description>
+			</base>
+			<RatingAuthority>1</RatingAuthority>
+			<RatingContentDescriptor>44</RatingContentDescriptor>
+			<RatingContentDescriptor>41</RatingContentDescriptor>
+			<RatingContentDescriptor>46</RatingContentDescriptor>
+			<RatingContentDescriptor>48</RatingContentDescriptor>
+			<RatingContentDescriptor>47</RatingContentDescriptor>
+			<RatingContentDescriptor>39</RatingContentDescriptor>
+			<RatingContentDescriptor>49</RatingContentDescriptor>
+			<RatingContentDescriptor>45</RatingContentDescriptor>
+			<RatingContentDescriptor>50</RatingContentDescriptor>
+			<RatingContentDescriptor>51</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>5</id>
+				<name>NC-17</name>
+				<description>No One 17 and Under Admitted</description>
+			</base>
+			<RatingAuthority>1</RatingAuthority>
+			<RatingContentDescriptor>44</RatingContentDescriptor>
+			<RatingContentDescriptor>41</RatingContentDescriptor>
+			<RatingContentDescriptor>46</RatingContentDescriptor>
+			<RatingContentDescriptor>48</RatingContentDescriptor>
+			<RatingContentDescriptor>47</RatingContentDescriptor>
+			<RatingContentDescriptor>39</RatingContentDescriptor>
+			<RatingContentDescriptor>49</RatingContentDescriptor>
+			<RatingContentDescriptor>45</RatingContentDescriptor>
+			<RatingContentDescriptor>50</RatingContentDescriptor>
+			<RatingContentDescriptor>51</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>6</id>
+				<name>TV Y</name>
+				<description>All Children</description>
+			</base>
+			<RatingAuthority>2</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>7</id>
+				<name>TV Y7</name>
+				<description>Directed to older children age 7 and above</description>
+			</base>
+			<RatingAuthority>2</RatingAuthority>
+			<RatingContentDescriptor>35</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>9</id>
+				<name>TV G</name>
+				<description>General Audience</description>
+			</base>
+			<RatingAuthority>2</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>10</id>
+				<name>TV PG</name>
+				<description>Parental Guidence Suggested</description>
+			</base>
+			<RatingAuthority>2</RatingAuthority>
+			<RatingContentDescriptor>34</RatingContentDescriptor>
+			<RatingContentDescriptor>33</RatingContentDescriptor>
+			<RatingContentDescriptor>32</RatingContentDescriptor>
+			<RatingContentDescriptor>31</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>11</id>
+				<name>TV 14</name>
+				<description>Parents Strongly Cautioned, unsuitable for children under age 14</description>
+			</base>
+			<RatingAuthority>2</RatingAuthority>
+			<RatingContentDescriptor>32</RatingContentDescriptor>
+			<RatingContentDescriptor>34</RatingContentDescriptor>
+			<RatingContentDescriptor>33</RatingContentDescriptor>
+			<RatingContentDescriptor>31</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>12</id>
+				<name>TV MA</name>
+				<description>Mature Audences Only, unsuitable for children under age 17</description>
+			</base>
+			<RatingAuthority>2</RatingAuthority>
+			<RatingContentDescriptor>34</RatingContentDescriptor>
+			<RatingContentDescriptor>33</RatingContentDescriptor>
+			<RatingContentDescriptor>32</RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>13</id>
+				<name>EC</name>
+				<description>Early Childhood</description>
+			</base>
+			<RatingAuthority>3</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>14</id>
+				<name>E</name>
+				<description>Everyone</description>
+			</base>
+			<RatingAuthority>3</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>15</id>
+				<name>E 10+</name>
+				<description>Ages 10 and up</description>
+			</base>
+			<RatingAuthority>3</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>16</id>
+				<name>Teen</name>
+				<description>Ages 13 and up</description>
+			</base>
+			<RatingAuthority>3</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>17</id>
+				<name>M</name>
+				<description>Mature </description>
+			</base>
+			<RatingAuthority>3</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>18</id>
+				<name>A</name>
+				<description>Adults ages 18 and up </description>
+			</base>
+			<RatingAuthority>3</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+		<Rating>
+			<base>
+				<id>19</id>
+				<name>RP</name>
+				<description>Not yet assigned the final ESRB Rating </description>
+			</base>
+			<RatingAuthority>3</RatingAuthority>
+			<RatingContentDescriptor></RatingContentDescriptor>
+		</Rating>
+	</root>
+</DataExchange>

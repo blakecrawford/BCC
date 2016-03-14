@@ -83,5 +83,10 @@ class ActivityPropertyRelationViewSet(viewsets.ModelViewSet):
     serializer_class = refdata.serializers.ActivityPropertyRelationSerializer
 
 
+class ThirdPartyIdentificationAuthorityViewSet(viewsets.ModelViewSet):
+    queryset = refdata.models.ThirdPartyIdentificationAuthority.objects.all()
+    serializer_class = refdata.serializers.ThirdPartyIdentificationAuthoritySerializer
+
+
 
 
